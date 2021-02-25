@@ -2,7 +2,7 @@ const amqp = require('amqplib');
 
 function connect() {
     return amqp
-        .connect('amqps://hmxytygi:Xtc2t3n7iQGUrc4bV_F98p2ZcmFTbJD_@jackal.rmq.cloudamqp.com/hmxytygi')
+        .connect('URL_STRING_RABBIT')//Adicione aqui sua string de conexõ ao servidor Rabbit
         .then(conn => conn.createChannel());
 }
 

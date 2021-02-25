@@ -13,7 +13,20 @@ cd producer
 composer install
 ```
 
+Adicone ao arquivo .env as seguintes variaveis de ambiente para acesso ao host do rabbit
+
+RABBIT_HOST=
+RABBIT_PORT=5672
+RABBIT_USER=
+RABBIT_PASSWORD=
+RABBIT_VHOST=
+
 Para executar o projeto rode o comando abaixo e através da rota **/operator** envie as informações para a fila.
+
+```sh
+cd producer
+php artisan serve
+```
 
 ### Projeto NodeJS (Consumer)
 
