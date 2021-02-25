@@ -1,6 +1,6 @@
 # RABBITMQ COM LARAVEL + CONSUMER NODEJS + SOCKETIO
 
-Caso seja coveniente utilize o [CloudAMPQ](https://www.cloudamqp.com/) que ja possui servidores do Rabbit ja consigurados.
+Caso seja coveniente utilize o [CloudAMPQ](https://www.cloudamqp.com/) que ja possui servidores do Rabbit ja configurados.
 
 ## Configurações e Instalação
 
