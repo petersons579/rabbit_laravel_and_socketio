@@ -6,7 +6,7 @@ Caso seja coveniente utilize o [CloudAMPQ](https://www.cloudamqp.com/) que ja po
 
 ### Projeto Laravel (Producer)
 
-No projeto do laravel as configurações se restrgem a apenas a instalação da lib do Rabbit, para isso acesse a pasta **producer** e rode os seguintes comandos:
+No projeto do laravel as configurações se restrigem a apenas a instalação da lib do Rabbit, para isso acesse a pasta **producer** e rode os seguintes comandos:
 
 ```sh
 cd producer
